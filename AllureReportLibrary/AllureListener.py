@@ -89,7 +89,8 @@ class AllureListener(object):
                 attachments=[],
                 labels=[],
 #                 parameters=[],
-                steps=[])
+                steps=[],
+		severity='normal')
 
         self.stack.append(test)
         return
